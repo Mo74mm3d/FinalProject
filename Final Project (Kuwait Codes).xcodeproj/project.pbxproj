@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E0E515027F16CC400B53916 /* Final_Project__Kuwait_Codes_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0E514F27F16CC400B53916 /* Final_Project__Kuwait_Codes_App.swift */; };
+		4E0E515227F16CC400B53916 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0E515127F16CC400B53916 /* ContentView.swift */; };
+		4E0E515427F16CC700B53916 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E0E515327F16CC700B53916 /* Assets.xcassets */; };
+		4E0E515727F16CC700B53916 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E0E515627F16CC700B53916 /* Preview Assets.xcassets */; };
+		4E0E516127F16CC700B53916 /* Final_Project__Kuwait_Codes_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0E516027F16CC700B53916 /* Final_Project__Kuwait_Codes_Tests.swift */; };
+		4E0E516B27F16CC700B53916 /* Final_Project__Kuwait_Codes_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0E516A27F16CC700B53916 /* Final_Project__Kuwait_Codes_UITests.swift */; };
+		4E0E516D27F16CC700B53916 /* Final_Project__Kuwait_Codes_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0E516C27F16CC700B53916 /* Final_Project__Kuwait_Codes_UITestsLaunchTests.swift */; };
+		4E42AC2E27FA74E700925AE3 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E42AC2D27FA74E700925AE3 /* Colors.swift */; };
+		4E42AC3027FA79E400925AE3 /* Portfolio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E42AC2F27FA79E400925AE3 /* Portfolio.swift */; };
+		4E42AC3227FA7AC700925AE3 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E42AC3127FA7AC700925AE3 /* Home.swift */; };
+		4E42AC3927FA828B00925AE3 /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E42AC3827FA828B00925AE3 /* CoinModel.swift */; };
+		4E42AC3D27FA90C500925AE3 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E42AC3C27FA90C500925AE3 /* CoinRowView.swift */; };
+		4E42AC3F27FA918D00925AE3 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E42AC3E27FA918D00925AE3 /* PreviewProvider.swift */; };
+		4E42AC4127FA9A9A00925AE3 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E42AC4027FA9A9A00925AE3 /* Double.swift */; };
+		4E42AC4327FAA85800925AE3 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E42AC4227FAA85800925AE3 /* HomeViewModel.swift */; };
+		4E42AC4827FAC8A700925AE3 /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E42AC4727FAC8A600925AE3 /* CoinDataService.swift */; };
+		4EFF1E6627FB4D9D0032C04D /* Learn More.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFF1E6527FB4D9D0032C04D /* Learn More.swift */; };
+		4EFF1E6927FB4F7E0032C04D /* Withdraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFF1E6827FB4F7E0032C04D /* Withdraw.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E0E515D27F16CC700B53916 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E0E514427F16CC400B53916 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E0E514B27F16CC400B53916;
+			remoteInfo = "Final Project (Kuwait Codes)";
+		};
+		4E0E516727F16CC700B53916 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E0E514427F16CC400B53916 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E0E514B27F16CC400B53916;
+			remoteInfo = "Final Project (Kuwait Codes)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E0E514C27F16CC400B53916 /* easycoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = easycoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E0E514F27F16CC400B53916 /* Final_Project__Kuwait_Codes_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_Project__Kuwait_Codes_App.swift; sourceTree = "<group>"; };
+		4E0E515127F16CC400B53916 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4E0E515327F16CC700B53916 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E0E515627F16CC700B53916 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4E0E515C27F16CC700B53916 /* Final Project (Kuwait Codes)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Final Project (Kuwait Codes)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E0E516027F16CC700B53916 /* Final_Project__Kuwait_Codes_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_Project__Kuwait_Codes_Tests.swift; sourceTree = "<group>"; };
+		4E0E516627F16CC700B53916 /* Final Project (Kuwait Codes)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Final Project (Kuwait Codes)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E0E516A27F16CC700B53916 /* Final_Project__Kuwait_Codes_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_Project__Kuwait_Codes_UITests.swift; sourceTree = "<group>"; };
+		4E0E516C27F16CC700B53916 /* Final_Project__Kuwait_Codes_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_Project__Kuwait_Codes_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4E42AC2D27FA74E700925AE3 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		4E42AC2F27FA79E400925AE3 /* Portfolio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Portfolio.swift; sourceTree = "<group>"; };
+		4E42AC3127FA7AC700925AE3 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		4E42AC3827FA828B00925AE3 /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
+		4E42AC3C27FA90C500925AE3 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
+		4E42AC3E27FA918D00925AE3 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
+		4E42AC4027FA9A9A00925AE3 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		4E42AC4227FAA85800925AE3 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		4E42AC4727FAC8A600925AE3 /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
+		4EFF1E6527FB4D9D0032C04D /* Learn More.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Learn More.swift"; sourceTree = "<group>"; };
+		4EFF1E6827FB4F7E0032C04D /* Withdraw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Withdraw.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E0E514927F16CC400B53916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E0E515927F16CC700B53916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E0E516327F16CC700B53916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E0E514327F16CC400B53916 = {
+			isa = PBXGroup;
+			children = (
+				4E0E514E27F16CC400B53916 /* Final Project (Kuwait Codes) */,
+				4E0E515F27F16CC700B53916 /* Final Project (Kuwait Codes)Tests */,
+				4E0E516927F16CC700B53916 /* Final Project (Kuwait Codes)UITests */,
+				4E0E514D27F16CC400B53916 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E0E514D27F16CC400B53916 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E0E514C27F16CC400B53916 /* easycoin.app */,
+				4E0E515C27F16CC700B53916 /* Final Project (Kuwait Codes)Tests.xctest */,
+				4E0E516627F16CC700B53916 /* Final Project (Kuwait Codes)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E0E514E27F16CC400B53916 /* Final Project (Kuwait Codes) */ = {
+			isa = PBXGroup;
+			children = (
+				4E0E514F27F16CC400B53916 /* Final_Project__Kuwait_Codes_App.swift */,
+				4EFF1E6827FB4F7E0032C04D /* Withdraw.swift */,
+				4EFF1E6527FB4D9D0032C04D /* Learn More.swift */,
+				4E0E515127F16CC400B53916 /* ContentView.swift */,
+				4E42AC2F27FA79E400925AE3 /* Portfolio.swift */,
+				4E42AC4627FAC85800925AE3 /* Services */,
+				4E42AC3B27FA90B100925AE3 /* Home */,
+				4E0E515327F16CC700B53916 /* Assets.xcassets */,
+				4E42AC3727FA823C00925AE3 /* Models */,
+				4E42AC2C27FA74A700925AE3 /* Extensions */,
+				4E0E515527F16CC700B53916 /* Preview Content */,
+			);
+			path = "Final Project (Kuwait Codes)";
+			sourceTree = "<group>";
+		};
+		4E0E515527F16CC700B53916 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4E0E515627F16CC700B53916 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4E0E515F27F16CC700B53916 /* Final Project (Kuwait Codes)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4E0E516027F16CC700B53916 /* Final_Project__Kuwait_Codes_Tests.swift */,
+			);
+			path = "Final Project (Kuwait Codes)Tests";
+			sourceTree = "<group>";
+		};
+		4E0E516927F16CC700B53916 /* Final Project (Kuwait Codes)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4E0E516A27F16CC700B53916 /* Final_Project__Kuwait_Codes_UITests.swift */,
+				4E0E516C27F16CC700B53916 /* Final_Project__Kuwait_Codes_UITestsLaunchTests.swift */,
+			);
+			path = "Final Project (Kuwait Codes)UITests";
+			sourceTree = "<group>";
+		};
+		4E42AC2C27FA74A700925AE3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4E42AC2D27FA74E700925AE3 /* Colors.swift */,
+				4E42AC3E27FA918D00925AE3 /* PreviewProvider.swift */,
+				4E42AC4027FA9A9A00925AE3 /* Double.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4E42AC3727FA823C00925AE3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4E42AC3827FA828B00925AE3 /* CoinModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4E42AC3B27FA90B100925AE3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4E42AC3127FA7AC700925AE3 /* Home.swift */,
+				4E42AC3C27FA90C500925AE3 /* CoinRowView.swift */,
+				4E42AC4227FAA85800925AE3 /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4E42AC4627FAC85800925AE3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4E42AC4727FAC8A600925AE3 /* CoinDataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E0E514B27F16CC400B53916 /* Final Project (Kuwait Codes) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E0E517027F16CC700B53916 /* Build configuration list for PBXNativeTarget "Final Project (Kuwait Codes)" */;
+			buildPhases = (
+				4E0E514827F16CC400B53916 /* Sources */,
+				4E0E514927F16CC400B53916 /* Frameworks */,
+				4E0E514A27F16CC400B53916 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Final Project (Kuwait Codes)";
+			productName = "Final Project (Kuwait Codes)";
+			productReference = 4E0E514C27F16CC400B53916 /* easycoin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E0E515B27F16CC700B53916 /* Final Project (Kuwait Codes)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E0E517327F16CC700B53916 /* Build configuration list for PBXNativeTarget "Final Project (Kuwait Codes)Tests" */;
+			buildPhases = (
+				4E0E515827F16CC700B53916 /* Sources */,
+				4E0E515927F16CC700B53916 /* Frameworks */,
+				4E0E515A27F16CC700B53916 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E0E515E27F16CC700B53916 /* PBXTargetDependency */,
+			);
+			name = "Final Project (Kuwait Codes)Tests";
+			productName = "Final Project (Kuwait Codes)Tests";
+			productReference = 4E0E515C27F16CC700B53916 /* Final Project (Kuwait Codes)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4E0E516527F16CC700B53916 /* Final Project (Kuwait Codes)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E0E517627F16CC700B53916 /* Build configuration list for PBXNativeTarget "Final Project (Kuwait Codes)UITests" */;
+			buildPhases = (
+				4E0E516227F16CC700B53916 /* Sources */,
+				4E0E516327F16CC700B53916 /* Frameworks */,
+				4E0E516427F16CC700B53916 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E0E516827F16CC700B53916 /* PBXTargetDependency */,
+			);
+			name = "Final Project (Kuwait Codes)UITests";
+			productName = "Final Project (Kuwait Codes)UITests";
+			productReference = 4E0E516627F16CC700B53916 /* Final Project (Kuwait Codes)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E0E514427F16CC400B53916 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					4E0E514B27F16CC400B53916 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					4E0E515B27F16CC700B53916 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 4E0E514B27F16CC400B53916;
+					};
+					4E0E516527F16CC700B53916 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 4E0E514B27F16CC400B53916;
+					};
+				};
+			};
+			buildConfigurationList = 4E0E514727F16CC400B53916 /* Build configuration list for PBXProject "Final Project (Kuwait Codes)" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E0E514327F16CC400B53916;
+			productRefGroup = 4E0E514D27F16CC400B53916 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E0E514B27F16CC400B53916 /* Final Project (Kuwait Codes) */,
+				4E0E515B27F16CC700B53916 /* Final Project (Kuwait Codes)Tests */,
+				4E0E516527F16CC700B53916 /* Final Project (Kuwait Codes)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E0E514A27F16CC400B53916 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E0E515727F16CC700B53916 /* Preview Assets.xcassets in Resources */,
+				4E0E515427F16CC700B53916 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E0E515A27F16CC700B53916 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E0E516427F16CC700B53916 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E0E514827F16CC400B53916 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E42AC3027FA79E400925AE3 /* Portfolio.swift in Sources */,
+				4E0E515227F16CC400B53916 /* ContentView.swift in Sources */,
+				4EFF1E6927FB4F7E0032C04D /* Withdraw.swift in Sources */,
+				4E42AC3227FA7AC700925AE3 /* Home.swift in Sources */,
+				4E42AC4327FAA85800925AE3 /* HomeViewModel.swift in Sources */,
+				4EFF1E6627FB4D9D0032C04D /* Learn More.swift in Sources */,
+				4E42AC2E27FA74E700925AE3 /* Colors.swift in Sources */,
+				4E42AC3927FA828B00925AE3 /* CoinModel.swift in Sources */,
+				4E42AC3F27FA918D00925AE3 /* PreviewProvider.swift in Sources */,
+				4E42AC3D27FA90C500925AE3 /* CoinRowView.swift in Sources */,
+				4E42AC4127FA9A9A00925AE3 /* Double.swift in Sources */,
+				4E0E515027F16CC400B53916 /* Final_Project__Kuwait_Codes_App.swift in Sources */,
+				4E42AC4827FAC8A700925AE3 /* CoinDataService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E0E515827F16CC700B53916 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E0E516127F16CC700B53916 /* Final_Project__Kuwait_Codes_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E0E516227F16CC700B53916 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E0E516B27F16CC700B53916 /* Final_Project__Kuwait_Codes_UITests.swift in Sources */,
+				4E0E516D27F16CC700B53916 /* Final_Project__Kuwait_Codes_UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E0E515E27F16CC700B53916 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E0E514B27F16CC400B53916 /* Final Project (Kuwait Codes) */;
+			targetProxy = 4E0E515D27F16CC700B53916 /* PBXContainerItemProxy */;
+		};
+		4E0E516827F16CC700B53916 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E0E514B27F16CC400B53916 /* Final Project (Kuwait Codes) */;
+			targetProxy = 4E0E516727F16CC700B53916 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4E0E516E27F16CC700B53916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4E0E516F27F16CC700B53916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E0E517127F16CC700B53916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Final Project (Kuwait Codes)/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mohammed.Final-Project--Kuwait-Codes-";
+				PRODUCT_NAME = easycoin;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E0E517227F16CC700B53916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Final Project (Kuwait Codes)/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mohammed.Final-Project--Kuwait-Codes-";
+				PRODUCT_NAME = easycoin;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4E0E517427F16CC700B53916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mohammed.Final-Project--Kuwait-Codes-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Final Project (Kuwait Codes).app/Final Project (Kuwait Codes)";
+			};
+			name = Debug;
+		};
+		4E0E517527F16CC700B53916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mohammed.Final-Project--Kuwait-Codes-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Final Project (Kuwait Codes).app/Final Project (Kuwait Codes)";
+			};
+			name = Release;
+		};
+		4E0E517727F16CC700B53916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mohammed.Final-Project--Kuwait-Codes-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Final Project (Kuwait Codes)";
+			};
+			name = Debug;
+		};
+		4E0E517827F16CC700B53916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mohammed.Final-Project--Kuwait-Codes-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Final Project (Kuwait Codes)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E0E514727F16CC400B53916 /* Build configuration list for PBXProject "Final Project (Kuwait Codes)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E0E516E27F16CC700B53916 /* Debug */,
+				4E0E516F27F16CC700B53916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E0E517027F16CC700B53916 /* Build configuration list for PBXNativeTarget "Final Project (Kuwait Codes)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E0E517127F16CC700B53916 /* Debug */,
+				4E0E517227F16CC700B53916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E0E517327F16CC700B53916 /* Build configuration list for PBXNativeTarget "Final Project (Kuwait Codes)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E0E517427F16CC700B53916 /* Debug */,
+				4E0E517527F16CC700B53916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E0E517627F16CC700B53916 /* Build configuration list for PBXNativeTarget "Final Project (Kuwait Codes)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E0E517727F16CC700B53916 /* Debug */,
+				4E0E517827F16CC700B53916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E0E514427F16CC400B53916 /* Project object */;
+}
