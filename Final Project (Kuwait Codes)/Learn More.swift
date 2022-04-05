@@ -20,15 +20,22 @@ struct Learn_More: View {
             ScrollView{
                 VStack{
                     Group{
+                    
                     Text("Learn More")
                         .font(.title)
                         .fontWeight(.bold)
                         .foregroundColor(.black)
                         .padding()
+                        Text("FAQ")
+                                .font(.title2)
+                                .fontWeight(.bold)
+                                .foregroundColor(Color.blue)
+                                
                     Text("What is Cryptocurrency?")
                         .font(.title2)
                         .fontWeight(.semibold)
                         .foregroundColor(Color.theme.green)
+                        .padding()
                     Text("A cryptocurrency, crypto-currency, or crypto is a digital currency designed to work as a medium of exchange through a computer network that is not reliant on any central authority, such as a government or bank, to uphold or maintain it.")
                         .font(.subheadline)
                         .foregroundColor(Color.gray)
@@ -50,11 +57,11 @@ struct Learn_More: View {
                         .foregroundColor(Color.gray)
                         .padding()
                     }
-                    Text("More About Crypto...")
-                        .font(.title)
-                        .fontWeight(.bold)
-                        .foregroundColor(.black)
-                        .padding()
+//                    Text("More About Crypto...")
+//                        .font(.title)
+//                        .fontWeight(.bold)
+//                        .foregroundColor(.black)
+//                        .padding()
                     
                     
                     
