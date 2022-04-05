@@ -25,6 +25,10 @@
 		4E42AC4827FAC8A700925AE3 /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E42AC4727FAC8A600925AE3 /* CoinDataService.swift */; };
 		4EFF1E6627FB4D9D0032C04D /* Learn More.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFF1E6527FB4D9D0032C04D /* Learn More.swift */; };
 		4EFF1E6927FB4F7E0032C04D /* Withdraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFF1E6827FB4F7E0032C04D /* Withdraw.swift */; };
+		4EFF1E7027FC08C30032C04D /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFF1E6F27FC08C30032C04D /* NetworkingManager.swift */; };
+		4EFF1E7327FC27E50032C04D /* CoinImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFF1E7227FC27E40032C04D /* CoinImageView.swift */; };
+		4EFF1E7527FC2B3F0032C04D /* CoinImageSerivce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFF1E7427FC2B3F0032C04D /* CoinImageSerivce.swift */; };
+		4EFF1E7727FC35DB0032C04D /* CoinImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFF1E7627FC35DB0032C04D /* CoinImageViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +70,10 @@
 		4E42AC4727FAC8A600925AE3 /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
 		4EFF1E6527FB4D9D0032C04D /* Learn More.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Learn More.swift"; sourceTree = "<group>"; };
 		4EFF1E6827FB4F7E0032C04D /* Withdraw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Withdraw.swift; sourceTree = "<group>"; };
+		4EFF1E6F27FC08C30032C04D /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
+		4EFF1E7227FC27E40032C04D /* CoinImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageView.swift; sourceTree = "<group>"; };
+		4EFF1E7427FC2B3F0032C04D /* CoinImageSerivce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageSerivce.swift; sourceTree = "<group>"; };
+		4EFF1E7627FC35DB0032C04D /* CoinImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +125,8 @@
 			isa = PBXGroup;
 			children = (
 				4E0E514F27F16CC400B53916 /* Final_Project__Kuwait_Codes_App.swift */,
+				4EFF1E7127FC27BA0032C04D /* CoinImage */,
+				4EFF1E6E27FC086D0032C04D /* Utilities */,
 				4EFF1E6827FB4F7E0032C04D /* Withdraw.swift */,
 				4EFF1E6527FB4D9D0032C04D /* Learn More.swift */,
 				4E0E515127F16CC400B53916 /* ContentView.swift */,
@@ -188,8 +198,26 @@
 			isa = PBXGroup;
 			children = (
 				4E42AC4727FAC8A600925AE3 /* CoinDataService.swift */,
+				4EFF1E7427FC2B3F0032C04D /* CoinImageSerivce.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		4EFF1E6E27FC086D0032C04D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4EFF1E6F27FC08C30032C04D /* NetworkingManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		4EFF1E7127FC27BA0032C04D /* CoinImage */ = {
+			isa = PBXGroup;
+			children = (
+				4EFF1E7227FC27E40032C04D /* CoinImageView.swift */,
+				4EFF1E7627FC35DB0032C04D /* CoinImageViewModel.swift */,
+			);
+			path = CoinImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -330,11 +358,15 @@
 				4EFF1E6627FB4D9D0032C04D /* Learn More.swift in Sources */,
 				4E42AC2E27FA74E700925AE3 /* Colors.swift in Sources */,
 				4E42AC3927FA828B00925AE3 /* CoinModel.swift in Sources */,
+				4EFF1E7727FC35DB0032C04D /* CoinImageViewModel.swift in Sources */,
 				4E42AC3F27FA918D00925AE3 /* PreviewProvider.swift in Sources */,
 				4E42AC3D27FA90C500925AE3 /* CoinRowView.swift in Sources */,
 				4E42AC4127FA9A9A00925AE3 /* Double.swift in Sources */,
+				4EFF1E7327FC27E50032C04D /* CoinImageView.swift in Sources */,
 				4E0E515027F16CC400B53916 /* Final_Project__Kuwait_Codes_App.swift in Sources */,
 				4E42AC4827FAC8A700925AE3 /* CoinDataService.swift in Sources */,
+				4EFF1E7527FC2B3F0032C04D /* CoinImageSerivce.swift in Sources */,
+				4EFF1E7027FC08C30032C04D /* NetworkingManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

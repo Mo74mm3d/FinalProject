@@ -47,7 +47,7 @@ struct Home: View {
                 .foregroundColor(Color.gray)
                 .padding(.horizontal)
                     Spacer()
-                        .frame(height:500)
+                        .frame(height:300)
             }
         }
     }

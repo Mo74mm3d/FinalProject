@@ -15,6 +15,7 @@ struct ContentView: View {
                 .tabItem {
                     Image(systemName: "house")
                     Text("Home")
+                        
                 }
             
             Portfolio()
@@ -23,11 +24,11 @@ struct ContentView: View {
                     Text("Portfolio")
                 }
             
-            Withdraw()
-                .tabItem{
-                    Image(systemName: "dollarsign.circle")
-                    Text("Withdraw/Deposit")
-                }
+//            Withdraw()
+//                .tabItem{
+//                    Image(systemName: "dollarsign.circle")
+//                    Text("Withdraw/Deposit")
+//                }
             
             Learn_More()
                 .tabItem{
