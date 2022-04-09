@@ -36,6 +36,9 @@ struct Home: View {
                 
             }
             VStack{
+                
+                SearchBarView(searchText: $vm.searchText)
+                
                 HStack{
                     Text("Coin")
                     Spacer()
@@ -47,7 +50,7 @@ struct Home: View {
                 .foregroundColor(Color.gray)
                 .padding(.horizontal)
                     Spacer()
-                        .frame(height:300)
+                        .frame(height:400)
             }
         }
     }
